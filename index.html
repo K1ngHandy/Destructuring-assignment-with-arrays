@@ -29,7 +29,10 @@
     PROBLEM 3: Declare an array called nums with the values [1, 2, 3, 4]. 
     Use the spread operator to create a new array with the first element at the end of the array.
     */
-    //ENTER YOUR CODE HERE
+    let nums = [1, 2, 3, 4];
+    let [firstNum, ...numbers] = nums;
+    let newArr = [...numbers, firstNum];
+    console.log(newArr);
 
     /* 
     PROBLEM 4: Swap the values of the a and b variables using destructuring assignment.
