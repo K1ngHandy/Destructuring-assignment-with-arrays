@@ -46,11 +46,11 @@
     PROBLEM 5 (DEBUGGING): The code below is supposed to print the first int and restOfInts to the console.
     However, it is not working.  Please fix the code so that it works as intended.
     */
-   /*
+   
     const ints = [1, 2, 3, 4, 5];
-    const [firstInt, restOfInts] = ints;
-    console.log(firstInt, restOfInts);
-  */
+    const [firstInt, ...restOfInts] = ints;
+    console.log(firstInt, ...restOfInts);
+  
   </script> 
   <section style="border: 2px solid blue; border-radius: 5px; padding: 10px; box-shadow: 5px 3px 3px orange; margin-top: 20px;">
     <h3>About The Solutions</h3>
